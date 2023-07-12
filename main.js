@@ -8,7 +8,7 @@ menuListArray = ["Pizza Vegetariana",
 function getMenu(){
     var htmldata="";
     menuListArray.sort();
-    for(var i=0;<menuListArray.lenght;i++){
+    for(var i=0;i<menuListArray.length;i++){
     htmldata=htmldata+ menuListArray[i] + '<br>'
     }
     document.getElementById("displayMenu").innerHTML = htmldata;
